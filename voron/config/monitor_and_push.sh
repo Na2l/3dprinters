@@ -1,8 +1,6 @@
 #!/bin/bash
-src="home/h20/printer_data/config"
+src="/home/h20/printer_data/config"
 dest="/home/h20/3dprinters/voron/config"
-ls -al $src
-ls -al $dest
 rsync -a --link-dest="$dest" "$src/" "$dest/"
 
 # Navigate to the repository
