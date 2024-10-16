@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Navigate to the repository
-cd ~/3dprinters/voron/config
+cd /home/h20/3dprinters/voron/config
 pwd
 # Check for changes
 git status -s
