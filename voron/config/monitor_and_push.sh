@@ -2,8 +2,9 @@
 
 # Navigate to the repository
 cd ~/3dprinters/voron/config
-
+pwd
 # Check for changes
+git status -s
 if [[ -n $(git status -s) ]]; then
     # Add all changes
     git add .
